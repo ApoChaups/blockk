@@ -21,9 +21,8 @@ var ncmbController = {
     var Score = this.ncmb.DataStore("ScoreClass");
     // ユーザ名の設定
    // var username = localStorage.getItem("username");
-   // alert(username)
     //if (username === null || username == null || username === "") {
-      username = prompt("ユーザ名を指定してください");
+      username = prompt("ユーザ名を入力してください");
       console.log(username)
      // localStorage.setItem("username", username);
    // }
